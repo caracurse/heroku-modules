@@ -1,20 +1,20 @@
-#Name: FakeWallet
-#Description: Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.
-#Author: @nervousmods
-#Commands:
-#.fwallet | .fwinfo
+# Name: FakeWallet
+# Description: Fun joke - fake crypto wallet. You can change cryptocurrency values ​​using .cfg FakeWallet.
+# Author: @sansaramods
+# Commands:
+# .fwallet | .fwinfo
 # ---------------------------------------------------------------------------------
-#🔒 Licensed under the GNU GPLv3
-#🌐 https://www.gnu.org/licenses/agpl-3.0.html
-#⚠️ All modules is not scam and absolutely safe.
-#👤 https://t.me/smlgwy
+# 🔒 Licensed under the GNU GPLv3
+# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+# ⚠️ All modules is not scam and absolutely safe.
+# 👤 https://t.me/exodiast
 #-----------------------------------------------------------------------------------
-#meta developer: @hikka_mods, @nervousmods
-#scope: hikka_only 
-#scope: hikka_min 1.4.2
+# meta developer: @sansaramods
 #-----------------------------------------------------------------------------------
 
-from .. import loader, utils
+__version__ = (1, 0, 0)
+
+from heroku import loader, utils
 import logging
 from telethon.tl.custom import Message
 

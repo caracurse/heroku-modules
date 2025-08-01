@@ -1,20 +1,20 @@
 #Name: Text2File
 #Description: Module for convertation your text to file
-#Author: @nervousmods
+#Author: @sansaramods
 #Commands:
 #.ttf
 # ---------------------------------------------------------------------------------
-#🔒 Licensed under the GNU GPLv3
-#🌐 https://www.gnu.org/licenses/agpl-3.0.html
-#⚠️ All modules is not scam and absolutely safe.
-#👤 https://t.me/smlgwy
+# 🔒 Licensed under the GNU GPLv3
+# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+# ⚠️ All modules is not scam and absolutely safe.
+# 👤 https://t.me/exodiast
 #-----------------------------------------------------------------------------------
-#meta developer: @nervousmods, @hikka_mods
-#scope: hikka_only 
-#scope: hikka_min 1.4.2
+# meta developer: @sansaramods
 #-----------------------------------------------------------------------------------
 
-from hikka import loader, utils
+__version__ = (1, 1, 2)
+
+from heroku import loader, utils
 import logging
 from telethon.tl.types import Message
 import io

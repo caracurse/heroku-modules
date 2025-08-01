@@ -1,21 +1,20 @@
 # Name: Link2Pic
 # Description: Module for downloading images via link from any sources.
-# Author: @nervousmods
+# Author: @sansaramods
 # Commands:
 # .l2p
 # ---------------------------------------------------------------------------------
 # 🔒 Licensed under the GNU GPLv3
 # 🌐 https://www.gnu.org/licenses/agpl-3.0.html
 # ⚠️ All modules is not scam and absolutely safe.
-# 👤 https://t.me/smlgwy
+# 👤 https://t.me/exodiast
 #-----------------------------------------------------------------------------------
-# meta developer: @nervousmods, @hikka_mods
-#scope: hikka_only 
-#scope: hikka_min 1.6.0
+# meta developer: @sansaramods
 #-----------------------------------------------------------------------------------
 
-import logging
-from hikka import loader, utils
+__version__ = (1, 0, 0)
+
+from heroku import loader, utils
 import requests
 import time
 

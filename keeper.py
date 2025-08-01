@@ -1,21 +1,16 @@
-#Name: Keepermod
-#Decsription: Module for save self-destructing images
-#Author: @nervousmods
-#Commands:
-# .kp
-# .akp
-#     _  __     ____    __    __  ________    ____       __  __
-#    | |/ /    / /\ \   \ \  / / |__    __|  /_/\ \     /  \/  \
-#    |   /    / /__\ \   \ \/ /     |  |        / /    / /\__/\ \
-#    |   \   / /____\ \   |  |      |  |     _  \ \   / /      \ \
-#    |_|\_\ /_/      \_\  |__|      |__|     \_\/_/  /_/        \_\
-#    
-#
-#
-#     🔐  Licenced under the GNU AGPLv3
-#                        https://www.gnu.org/licence/aplg-3.0.html
-#meta developer: @nervousmods
-#
+# Name: Keepermod
+# Description: Module for save self-destructing images
+# Author: @sansaramods
+# Commands:
+# .kp | .akp
+# ---------------------------------------------------------------------------------
+# 🔒 Licensed under the GNU GPLv3
+# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+# ⚠️ All modules is not scam and absolutely safe.
+# 👤 https://t.me/exodiast
+#-----------------------------------------------------------------------------------
+# meta developer: @sansaramods
+#-----------------------------------------------------------------------------------
 
 __version__ = (1, 0, 0)
 
@@ -23,7 +18,7 @@ import io
 
 from telethon import types
 
-from .. import loader, utils
+from heroku import loader, utils
 
 
 @loader.tds

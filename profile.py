@@ -1,37 +1,28 @@
-#Name: Profile
-#Description: Module for changing profile data.
-#Author: @nervousmods
+# Name: Profile
+# Description: Module for changing profile data.
+# Author: @sansaramods
 # Commands:
 # .name | .about | .user
-#     _  __     ____    __    __  ________    ____       __  __
-#    | |/ /    / /\ \   \ \  / / |__    __|  /_/\ \     /  \/  \
-#    |   /    / /__\ \   \ \/ /     |  |        / /    / /\__/\ \
-#    |   \   / /____\ \   |  |      |  |     _  \ \   / /      \ \
-#    |_|\_\ /_/      \_\  |__|      |__|     \_\/_/  /_/        \_\
-#    
-#
-#
-#     🔐  Licenced under the GNU AGPLv3
-#                        https://www.gnu.org/licenses/aplg-3.0.html
-#meta developer: @nervousmods
-#scope: hikka_only 
-#scope: hikka_min 1.4.2
+# ---------------------------------------------------------------------------------
+# 🔒 Licensed under the GNU GPLv3
+# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+# ⚠️ All modules is not scam and absolutely safe.
+# 👤 https://t.me/exodiast
+#-----------------------------------------------------------------------------------
+# meta developer: @sansaramods
+#-----------------------------------------------------------------------------------
 
-__version__ = (0, 1, 1 )
+__version__ = (1, 1, 1 )
 
 import logging
-import os 
 from telethon.errors.rpcerrorlist import UsernameOccupiedError 
 from telethon.tl.functions.account import (
  UpdateProfileRequest, 
  UpdateStatusRequest, 
  UpdateUsernameRequest)
-from .. import loader, utils
-
+from heroku import loader, utils
 
 logger = logging.getLogger(__name__)
-
-
 
 def register(cb):
     cb(ProfileEditorMod())

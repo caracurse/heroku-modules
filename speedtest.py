@@ -1,32 +1,24 @@
 #Name: speedtester
 #Description: Module for checking your Internet speed.
-#Author: @nervousmods
+#Author: @sansaramods
 # Commands:
 # .speed
-#     _  __     ____    __    __  ________    ____       __  __
-#    | |/ /    / /\ \   \ \  / / |__    __|  /_/\ \     /  \/  \
-#    |   /    / /__\ \   \ \/ /     |  |        / /    / /\__/\ \
-#    |   \   / /____\ \   |  |      |  |     _  \ \   / /      \ \
-#    |_|\_\ /_/      \_\  |__|      |__|     \_\/_/  /_/        \_\
-#    
-#
-#
-#     🔐  Licenced under the GNU AGPLv3
-#                        https://www.gnu.org/licenses/aplg-3.0.html
-#meta developer: @nervousmods
-#scope: hikka_only 
-#scope: hikka_min 1.4.2
-
+# ---------------------------------------------------------------------------------
+# 🔒 Licensed under the GNU GPLv3
+# 🌐 https://www.gnu.org/licenses/agpl-3.0.html
+# ⚠️ All modules is not scam and absolutely safe.
+# 👤 https://t.me/exodiast
+#-----------------------------------------------------------------------------------
+# meta developer: @sansaramods
+#-----------------------------------------------------------------------------------
 
 __version__ = (1, 1, 2)
 
 from typing import Tuple
 import speedtest
 import logging 
-from .. import loader, utils
-from telethon.tl.custom import Message
-from telethon import TelegramClient
-from telethon.tl.functions.channels import JoinChannelRequest
+from heroku import loader, utils #type: ignore
+from telethon.tl.custom import Message #type: ignore
 
 
 logger = logging.getLogger(__name__)

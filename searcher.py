@@ -1,25 +1,22 @@
 # Name: Searcher
 #Description: Searches for various queries in inline bots
-# Author: @nervousmods
+# Author: @sansaramods
 # Commands:
 # .pic | .vid | .gif | .stick
 # ---------------------------------------------------------------------------------
 # 🔒 Licensed under the GNU GPLv3
 # 🌐 https://www.gnu.org/licenses/agpl-3.0.html
 # ⚠️ All modules is not scam and absolutely safe.
-# 👤 https://t.me/morcorp
+# 👤 https://t.me/exodiast
 #-----------------------------------------------------------------------------------
-# meta developer: @nervousmods
-#scope: hikka_only 
-#scope: hikka_min 1.4.2
-#scope: inline
+# meta developer: @sansaramods
 #-----------------------------------------------------------------------------------
 
-__version__ = (0, 0, 1)
+__version__ = (1, 0, 1)
 
 import random
-from hikkatl.types import Message
-from .. import loader, utils
+from hikkatl.types import Message #type: ignore
+from heroku import loader, utils #type: ignore
 import logging
 
 logger = logging.getLogger(__name__)

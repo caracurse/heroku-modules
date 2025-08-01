@@ -30,13 +30,7 @@ def register(cb):
 @loader.tds
 class ProfileEditorMod(loader.Module):
     """This module can change your Telegram profile."""
-
-    strings = {
-        "name": "Profile",
-        "author": "smlgwy"
-        }
-   
-    
+ 
     async def namecmd(self, message):
         """- for change your first/second name. """
         args = utils.get_args_raw(message).split("/")
@@ -71,3 +65,4 @@ class ProfileEditorMod(loader.Module):
         except UsernameOccupiedError:
             await message.edit("The new username is already occupied!")
     
+

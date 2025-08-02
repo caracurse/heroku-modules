@@ -14,7 +14,7 @@
 
 __version__ = (1, 0, 0)
 
-from heroku import loader, utils
+from .. import loader, utils
 import requests
 import time
 

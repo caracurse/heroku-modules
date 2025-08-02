@@ -15,7 +15,7 @@
 __version__ = (1, 0, 0)
 
 import logging 
-from heroku import loader, utils #type: ignore
+from .. import loader, utils
 
 logger = logging.getLogger(__name__)
 

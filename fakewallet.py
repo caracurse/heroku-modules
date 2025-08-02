@@ -14,9 +14,9 @@
 
 __version__ = (1, 0, 0)
 
-from heroku import loader, utils
+from .. import loader, utils
 import logging
-from telethon.tl.custom import Message
+from herokutl.types import Message
 
 __version__ = (1, 0, 0)
 logger = logging.getLogger(__name__)

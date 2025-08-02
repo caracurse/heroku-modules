@@ -20,7 +20,7 @@ from telethon.tl.functions.account import (
  UpdateProfileRequest, 
  UpdateStatusRequest, 
  UpdateUsernameRequest)
-from heroku import loader, utils
+from .. import loader, utils
 
 logger = logging.getLogger(__name__)
 

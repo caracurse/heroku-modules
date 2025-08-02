@@ -17,8 +17,8 @@ __version__ = (1, 1, 2)
 from typing import Tuple
 import speedtest
 import logging 
-from heroku import loader, utils #type: ignore
-from telethon.tl.custom import Message #type: ignore
+from .. import loader, utils
+from herokutl.types import Message 
 
 
 logger = logging.getLogger(__name__)

@@ -16,7 +16,7 @@ __version__ = (1, 0, 0)
 
 import logging
 import requests
-from heroku import loader, utils
+from .. import loader, utils
 import time
 
 __version__=(1, 0, 0)

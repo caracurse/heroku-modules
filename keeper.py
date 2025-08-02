@@ -18,7 +18,7 @@ import io
 
 from telethon import types
 
-from heroku import loader, utils
+from .. import loader, utils
 
 
 @loader.tds

@@ -14,7 +14,7 @@
 __version__=(1, 0, 1)
 
 from datetime import datetime
-from heroku import loader, utils #type: ignore
+from .. import loader, utils
 
 @loader.tds
 class SeasonsTimer(loader.Module):

@@ -15,8 +15,8 @@
 __version__ = (1, 0, 1)
 
 import random
-from hikkatl.types import Message #type: ignore
-from heroku import loader, utils #type: ignore
+from herokutl.types import Message
+from .. import loader, utils
 import logging
 
 logger = logging.getLogger(__name__)

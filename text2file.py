@@ -14,9 +14,9 @@
 
 __version__ = (1, 1, 2)
 
-from heroku import loader, utils
+from .. import loader, utils
 import logging
-from telethon.tl.types import Message
+from herokutl.types import Message
 import io
 
 __version__ = (1, 0, 0)

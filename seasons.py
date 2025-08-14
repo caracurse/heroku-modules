@@ -1,5 +1,5 @@
 #Name: SeasonsTimer
-#Description: Модуль - таймер времен года.
+#Description: Season timer
 #Author: @sansaramods
 #Commands:
 #.tosum | .toaut | .towin | .tospr
@@ -94,3 +94,4 @@ class SeasonsTimer(loader.Module):
                 f"• Минут<emoji document_id=5364179527230564196>⚪️</emoji> {time_to_spring.seconds // 60 % 60}\n"
             ),
         )
+

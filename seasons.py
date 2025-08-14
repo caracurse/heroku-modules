@@ -17,7 +17,7 @@ from datetime import datetime
 from .. import loader, utils
 
 @loader.tds
-class SeasonsTimer(loader.Module):
+class Seasons(loader.Module):
     """Модуль таймер до начала времен года."""
     strings = {
         "name": "SeasonsTimer"
@@ -94,4 +94,5 @@ class SeasonsTimer(loader.Module):
                 f"• Минут<emoji document_id=5364179527230564196>⚪️</emoji> {time_to_spring.seconds // 60 % 60}\n"
             ),
         )
+
 

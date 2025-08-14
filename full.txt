@@ -8,3 +8,4 @@ searcher
 seasons
 speedtest
 text2file
+joketranslator
